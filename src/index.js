@@ -18,6 +18,7 @@ function makerPower(power){
 }
 
 let power2 = makerPower(2)
+
 let power3 = makerPower(3)
 
 
