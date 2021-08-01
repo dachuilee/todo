@@ -5,5 +5,22 @@
     <title>起步</title>
   </head>
   <body>
+    <h3>测试打印</h3>
+    <button id="print" >打印</button>
+    <script>
+      const arr = []
+      function test(){
+        console.log("test")
+        for(let i = 0; i< 10000; i++){
+          let p = document.createElement("h3")
+          arr.push(p)
+          // document.body.appendChild(p)
+          // arr.push(new Array(100).join(","))
+        }
+      }
+
+      document.getElementById("print").addEventListener("click",test)
+      
+    </script>
   </body>
 </html>

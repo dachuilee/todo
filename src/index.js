@@ -25,3 +25,5 @@ let power3 = makerPower(3)
 console.log(power2(4))
 console.log(power2(5))
 console.log(power3(4))
+
+
