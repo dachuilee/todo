@@ -5,7 +5,7 @@ function myThrottle(handle,wait){
     let previous = 0
     let timer = null
 
-    // 通过返回一个函数绑定事件
+    // 通过返回一个函数绑定事件 
     return function proxy(...args){
         let now = new Date()
         let self = this
