@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <title>起步</title>
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
   </head>
   <body>
-    <h3>测试打印</h3>
+    <!-- <h3>测试打印</h3>
     <button id="print" >打印</button>
     <script>
       const arr = []
@@ -21,6 +22,12 @@
 
       document.getElementById("print").addEventListener("click",test)
       
-    </script>
+    </script> -->
+
+    <ul>
+      <li><button type="button" id="initDB">初始化数据</button></li>
+      <li><button type="button" id="addData">添加数据</button></li>
+      <li><button type="button" id="boundIndex">联合索引</button></li>
+    </ul>
   </body>
 </html>
